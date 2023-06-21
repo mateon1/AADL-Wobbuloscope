@@ -1,0 +1,12 @@
+Check connection binding consistency Report
+
+ERROR:  frequencyKnob.level -> wobbulator.frequencyKnob: Hardware (processor or device) of connection source is not physically connected by bus specified in connection binding.
+ERROR:  frequencyKnob.level -> wobbulator.frequencyKnob: Hardware (processor or device) of connection destination is not physically connected by bus specified in connection binding.
+ERROR:  amplitudeKnob.level -> wobbulator.amplitudeKnob: Hardware (processor or device) of connection source is not physically connected by bus specified in connection binding.
+ERROR:  amplitudeKnob.level -> wobbulator.amplitudeKnob: Hardware (processor or device) of connection destination is not physically connected by bus specified in connection binding.
+ERROR:  wobbulator.analogOut -> oscilloscope.wobbulatorIn: Hardware (processor or device) of connection source is not physically connected by bus specified in connection binding.
+ERROR:  wobbulator.analogOut -> oscilloscope.wobbulatorIn: Hardware (processor or device) of connection destination is not physically connected by bus specified in connection binding.
+ERROR:  wobbulator.analogOut -> testedDevice.signalIn: Hardware (processor or device) of connection source is not physically connected by bus specified in connection binding.
+ERROR:  wobbulator.analogOut -> testedDevice.signalIn: Hardware (processor or device) of connection destination is not physically connected by bus specified in connection binding.
+ERROR:  testedDevice.probedSignal -> oscilloscope.analogProbe: Hardware (processor or device) of connection source is not physically connected by bus specified in connection binding.
+ERROR:  testedDevice.probedSignal -> oscilloscope.analogProbe: Hardware (processor or device) of connection destination is not physically connected by bus specified in connection binding.

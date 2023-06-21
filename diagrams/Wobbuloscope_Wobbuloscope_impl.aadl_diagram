@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="eaa6adea-6dc9-4bea-bfbe-7d62f357bacc" manual="true">
+    <element uuid="ab61ae15-adf4-496c-a222-954043d9b75a" manual="true">
+      <element uuid="11ef25d9-9802-4b4c-a9ff-77425ebae1a9" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>e5ff6d43-4f76-470f-80bf-db7c8dc5aceb</seg>
+        </bo>
+      </element>
+      <element uuid="d92507a0-f82b-4f37-be58-01bef171dee1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>amplKnob</seg>
+      </bo>
+    </element>
+    <element uuid="4b1a06a3-83d3-462b-a83a-c4c8451e3468" manual="true">
+      <element uuid="31b3546c-17d7-4243-922b-2c61b824f9d7" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>4fcf76f5-2a92-4e2c-b461-abc5206301b3</seg>
+        </bo>
+      </element>
+      <element uuid="f6fb8c39-3b7a-4418-b4ed-61dc0abdfb21" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>freqKnob</seg>
+      </bo>
+    </element>
+    <element uuid="64f43539-3e50-452e-a853-c4f1c4d7b975" manual="true">
+      <element uuid="429a046e-1e9a-4dcd-a9cf-505ef1408de5" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>82c15b22-3aea-496f-b62d-bcaddc42230c</seg>
+        </bo>
+      </element>
+      <element uuid="47d2724d-3ba8-4ec1-8785-eadfa0f1929c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>oscilloscopeProbe</seg>
+      </bo>
+    </element>
+    <element uuid="2841dd47-0b25-469f-849e-3c7c08fb3b7d" manual="true">
+      <element uuid="3e0b9ea8-ebf1-4a1e-8ed6-a568088079b8" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>52f3a856-22d0-42ac-8845-b2b79faf72b3</seg>
+        </bo>
+        <bendpoints>
+          <point x="1751.0" y="401.0000305175781"/>
+        </bendpoints>
+      </element>
+      <element uuid="99dbb0aa-3c0b-466b-a38b-6bca8c9540f8" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>oscOut</seg>
+      </bo>
+    </element>
+    <element uuid="831cf9df-526a-4726-8e7d-980512ad7240" manual="true">
+      <element uuid="83b0f3d6-00c1-44c8-b62e-f20e0eaf77c7" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>usbOsc</seg>
+      </bo>
+      <bendpoints>
+        <point x="1570.0" y="387.0000305175781"/>
+      </bendpoints>
+    </element>
+    <element uuid="b2aa47d8-94c9-473c-8349-1e1d8def9425" manual="true">
+      <element uuid="1d1d4b1d-4306-4bef-ba60-8d3f28c286b0" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>usbWob</seg>
+      </bo>
+      <bendpoints>
+        <point x="903.0" y="377.0000305175781"/>
+      </bendpoints>
+    </element>
+    <element uuid="c2a35244-173c-4828-b5b6-6cc824b07764" manual="true">
+      <element uuid="c50a8846-1108-4af5-b01d-25ca75031aa1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wireAmpl</seg>
+      </bo>
+    </element>
+    <element uuid="9a6cf041-b4b7-461c-9214-9aba1bda3ea7" manual="true">
+      <element uuid="54b3d89e-5620-4e90-8bdd-45c495ef4e19" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wireAmpl2</seg>
+      </bo>
+      <bendpoints>
+        <point x="705.0" y="202.99998474121094"/>
+      </bendpoints>
+    </element>
+    <element uuid="6948dae0-5a22-4025-b84a-fa240de99acb" manual="true">
+      <element uuid="4807c571-25fb-41cd-b79a-f88b0ebd27f4" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wireFreq</seg>
+      </bo>
+    </element>
+    <element uuid="b1be638f-359c-4de5-91f9-7fedbc9f40d0" manual="true">
+      <element uuid="2f94adfa-2537-438e-a12f-d114c15d12b6" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wireFreq2</seg>
+      </bo>
+    </element>
+    <element uuid="19f90c30-a7e8-4765-ac0d-0b56ce6b6832" manual="true">
+      <element uuid="1e65c85d-5045-4c03-b391-0a8bb15aee6b" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wireOsc1</seg>
+      </bo>
+    </element>
+    <element uuid="bd07ead4-9f80-4737-b8ec-15f981c7723b" manual="true">
+      <element uuid="fa1ae52f-a69a-4d31-bea5-274eb4209675" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wireOsc2</seg>
+      </bo>
+    </element>
+    <element uuid="cb547e56-b622-4689-bf83-2cf2e0f21470" manual="true">
+      <element uuid="dcdee0c1-47da-42da-b615-4ad43abbbf05" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wireWob1</seg>
+      </bo>
+    </element>
+    <element uuid="d7904164-cce2-4ab8-8a60-9746293c364d" manual="true">
+      <element uuid="ba7bb664-b523-4896-b713-36275c8c4aec" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>7987f8be-7350-46cf-9bac-41a8feb4a55f</seg>
+        </bo>
+      </element>
+      <element uuid="cd52b417-8924-4996-8c4d-2c0e75be7c99" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wobToDevice</seg>
+      </bo>
+    </element>
+    <element uuid="9f817458-4c91-47f5-a3d6-0de9c2afbc7e" manual="true">
+      <element uuid="5a82e69d-1d34-49b0-97b4-fea80cf52e9c" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>7987f8be-7350-46cf-9bac-41a8feb4a55f</seg>
+        </bo>
+      </element>
+      <element uuid="2a8f1a34-e5f6-42c2-8b9d-a00838de7b01" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wobToOsc</seg>
+      </bo>
+    </element>
+    <element uuid="fbe32d7b-e280-4d35-a842-38a1936af3a4" manual="true">
+      <element uuid="2f9ded8a-78c6-4668-8c60-87b074b5a682" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>52f3a856-22d0-42ac-8845-b2b79faf72b3</seg>
+        </bo>
+        <bendpoints>
+          <point x="746.0" y="251.99998474121094"/>
+          <point x="747.0" y="398.0000305175781"/>
+        </bendpoints>
+      </element>
+      <element uuid="5d3f31ad-c8ec-4496-8df5-a63b91f95193" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wobWave</seg>
+      </bo>
+    </element>
+    <element uuid="db10aac4-a601-472a-9f61-b6fba4f24d16" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>sampleOutput</seg>
+      </bo>
+      <position x="1454.9921875" y="109.99999999999997"/>
+    </element>
+    <element uuid="0c70c830-38e7-470b-aebc-ce1bcf750aa9" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wobbulatorWaveformIn</seg>
+      </bo>
+      <position y="149.99999999999997"/>
+    </element>
+    <element uuid="18727071-2d9a-4573-a76a-a0ef2b92db6e" manual="true">
+      <element uuid="fd456852-8da6-4171-b9a6-714532318c47" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>level</seg>
+        </bo>
+        <position x="185.5625057220459" y="10.0"/>
+      </element>
+      <element uuid="114cda3d-162c-4b1a-b918-f3011eaedb87" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Processor_Binding</seg>
+          <seg>529560b9-1f78-447d-8506-47e76bf966fc</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>amplitudeKnob</seg>
+      </bo>
+      <position x="20.000000000000057" y="19.99999999999997"/>
+      <size width="224.98437881469727" height="60.0"/>
+    </element>
+    <element uuid="529560b9-1f78-447d-8506-47e76bf966fc" manual="true">
+      <element uuid="75c502d6-1371-4e0a-a331-e911f711e398" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wire</seg>
+        </bo>
+        <position x="181.08983993530273" y="10.000000000000028"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>amplKnobProc</seg>
+      </bo>
+      <position x="30.0" y="90.0"/>
+      <size width="217.5364532470703" height="60.0"/>
+    </element>
+    <element uuid="e5ff6d43-4f76-470f-80bf-db7c8dc5aceb" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>amplKnobWire</seg>
+      </bo>
+      <position x="280.0" y="120.0"/>
+      <size width="144.63021087646484" height="35.0"/>
+    </element>
+    <element uuid="52f3a856-22d0-42ac-8845-b2b79faf72b3" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>externalUsb</seg>
+      </bo>
+      <position x="850.0000000000001" y="429.99999999999994"/>
+      <size width="128.3346405029297" height="35.0"/>
+    </element>
+    <element uuid="28ab8af3-0800-405a-9e7f-2eccc61ff1f0" manual="true">
+      <element uuid="281bb405-027c-4358-ab2e-49fe40458cd7" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>wire</seg>
+        </bo>
+        <position x="175.16535568237305" y="9.999999999999858"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>freqKnobProc</seg>
+      </bo>
+      <position x="30.0" y="370.0"/>
+      <size width="211.61196899414062" height="60.0"/>
+    </element>
+    <element uuid="4fcf76f5-2a92-4e2c-b461-abc5206301b3" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>freqKnobWire</seg>
+      </bo>
+      <position x="280.00000000000006" y="390.0"/>
+      <size width="138.70572662353516" height="35.0"/>
+    </element>
+    <element uuid="635a7662-f160-45e9-b283-ca88d92ed25f" manual="true">
+      <element uuid="f22fdf0e-c793-4dc2-b614-9b861520ccac" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>level</seg>
+        </bo>
+        <position x="186.3046932220459" y="10.0"/>
+      </element>
+      <element uuid="f542d805-8db8-4e01-a156-8d256e535c2a" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Processor_Binding</seg>
+          <seg>28ab8af3-0800-405a-9e7f-2eccc61ff1f0</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>frequencyKnob</seg>
+      </bo>
+      <position x="20.0" y="280.0"/>
+      <size width="225.72656631469727" height="60.0"/>
+    </element>
+    <element uuid="7987f8be-7350-46cf-9bac-41a8feb4a55f" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>generatedSignalWire</seg>
+      </bo>
+      <position x="830.0" y="340.0"/>
+      <size width="181.70703125" height="35.0"/>
+    </element>
+    <element uuid="3692a951-802f-427d-abc0-285e3017e7f6" manual="true">
+      <element uuid="014aab8c-a8fd-4a1b-88e0-75bf15695e19" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>analogProbe</seg>
+        </bo>
+        <position y="12.000000000000028"/>
+      </element>
+      <element uuid="1bfd57f8-a527-4e47-bdd8-0578209aa5cd" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>digitalOut</seg>
+        </bo>
+        <position x="238.1861915588379" y="35.0"/>
+      </element>
+      <element uuid="38523f54-3bf9-4e9f-b271-e41fd741b569" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wobbulatorIn</seg>
+        </bo>
+        <position y="62.00000000000003"/>
+      </element>
+      <element uuid="766808a1-90c5-4755-a878-69f9231ab4b4" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Processor_Binding</seg>
+          <seg>24b083b3-6f1a-4c28-b4f6-3d60a5aad181</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>oscilloscope</seg>
+      </bo>
+      <position x="1150.0" y="80.0"/>
+      <size width="306.5143127441406" height="140.0"/>
+    </element>
+    <element uuid="24b083b3-6f1a-4c28-b4f6-3d60a5aad181" manual="true">
+      <element uuid="3032a506-3a99-4b93-b562-c3b97ba09224" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>adc1</seg>
+        </bo>
+        <position y="19.999999999999886"/>
+      </element>
+      <element uuid="1770a9a6-c266-4f52-80d4-4b2a44f804e4" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>adc2</seg>
+        </bo>
+        <position y="64.99999999999989"/>
+      </element>
+      <element uuid="caa66eb1-d5d3-4471-9663-b845adc91aa7" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>dac</seg>
+        </bo>
+        <position x="126.71225357055664" y="40.0"/>
+      </element>
+      <element uuid="df4895bd-45dd-4fc4-a7b3-a325c11cccd8" manual="true" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>usb</seg>
+        </bo>
+        <position x="40.0" y="116.00000000000003"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>oscilloscopeFpga</seg>
+      </bo>
+      <position x="1230.0" y="270.0"/>
+      <size width="160.20964813232422" height="140.00000000000003"/>
+    </element>
+    <element uuid="82c15b22-3aea-496f-b62d-bcaddc42230c" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>oscProbeWire</seg>
+      </bo>
+      <position x="1020.0" y="280.0"/>
+      <size width="140.91927337646484" height="35.0"/>
+    </element>
+    <element uuid="d7471e04-73da-4d11-a5b2-50ac768f333b" manual="true">
+      <element uuid="d9c242a1-3e73-47b7-b4b5-11a0c69f75ae" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>probedSignal</seg>
+        </bo>
+        <position x="224.84635162353516" y="10.0"/>
+      </element>
+      <element uuid="7fc84097-02ef-4d69-99d4-9d4139b02c6d" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>signalIn</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>testedDevice</seg>
+      </bo>
+      <position x="810.0" y="40.0"/>
+      <size width="315.4270782470703" height="60.0"/>
+    </element>
+    <element uuid="e638ce8c-57f2-48ed-9c75-f09b249944a9" manual="true">
+      <element uuid="3bf27cd6-73fd-4314-8f3c-1e010bc0c4b5" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>amplitudeKnob</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="3fb8181b-9492-4710-8e9a-9d4d4155e4d9" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>analogOut</seg>
+        </bo>
+        <position x="252.27474212646484" y="60.0"/>
+      </element>
+      <element uuid="17c87f4f-8ce1-4a6b-84b9-b018cccb9b27" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>frequencyKnob</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="71399dbe-a815-43f1-99cd-46d951dd4aa5" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>sampleInput</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="60891a76-85d9-45ac-9b3d-6727b2afe328" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Processor_Binding</seg>
+          <seg>3673ce89-6624-48c1-bd53-caf49dc3d2ca</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wobbulator</seg>
+      </bo>
+      <position x="460.0" y="80.0"/>
+      <size width="325.8046875" height="160.0"/>
+    </element>
+    <element uuid="3673ce89-6624-48c1-bd53-caf49dc3d2ca" manual="true">
+      <element uuid="0b586c06-6ab4-4388-b924-600a8cbe49f9" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>adc1</seg>
+        </bo>
+        <position y="20.000000000000114"/>
+      </element>
+      <element uuid="0fb584a0-3794-4106-a458-405ce3319899" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>adc2</seg>
+        </bo>
+        <position y="65.00000000000011"/>
+      </element>
+      <element uuid="6550f64b-3218-46fd-94ad-588c5ef6915e" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>dac</seg>
+        </bo>
+        <position x="126.50260543823242" y="39.99999999999997"/>
+      </element>
+      <element uuid="3490ca8d-1e9e-43ac-af4d-23d8511c7f8a" manual="true" dockArea="bottom">
+        <bo>
+          <seg>feature</seg>
+          <seg>usb</seg>
+        </bo>
+        <position x="50.0" y="96.00000000000003"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>wobbulatorFpga</seg>
+      </bo>
+      <position x="550.0" y="280.0"/>
+      <size width="160.0" height="120.00000000000003"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>Wobbuloscope.impl</seg>
+    </bo>
+    <position x="260.0" y="-49.99999999999997"/>
+    <size width="1550.0" height="470.0000000000026"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties>
+      <property>deployment_properties::actual_processor_binding</property>
+      <property>deployment_properties::actual_connection_binding</property>
+    </enabledAadlProperties>
+    <context>
+      <seg>classifier</seg>
+      <seg>Wobbuloscope::Wobbuloscope.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

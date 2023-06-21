@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:instance="http://aadl.info/AADL/2.0/instance">
+  <instance:SystemInstance name="TestedDevice_impl_Instance" category="device">
+    <featureInstance name="signalIn" type="/1">
+      <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance name="probedSignal" direction="out" type="/1">
+      <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.9/@ownedDataPort.1"/>
+    </featureInstance>
+    <classifier xsi:type="aadl2:DeviceImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.TestedDevice.impl"/>
+    <systemOperationMode name="No Modes"/>
+    <componentImplementation xsi:type="aadl2:DeviceImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.TestedDevice.impl"/>
+  </instance:SystemInstance>
+  <instance:ComponentInstance name="Wobbuloscope::AnalogSignal" category="data">
+    <classifier xsi:type="aadl2:DataType" href="../Wobbuloscope.aadl#Wobbuloscope.AnalogSignal"/>
+  </instance:ComponentInstance>
+</xmi:XMI>
