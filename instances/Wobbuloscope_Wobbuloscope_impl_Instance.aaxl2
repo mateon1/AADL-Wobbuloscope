@@ -11,7 +11,7 @@
         </ownedValue>
         <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
       </ownedPropertyAssociation>
-      <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.16/@ownedDataPort.0"/>
+      <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.21/@ownedDataPort.0"/>
     </featureInstance>
     <featureInstance name="wobbulatorWaveformIn" type="/2">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -23,64 +23,32 @@
         </ownedValue>
         <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
       </ownedPropertyAssociation>
-      <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.16/@ownedDataPort.1"/>
+      <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.21/@ownedDataPort.1"/>
     </featureInstance>
     <componentInstance name="oscProbeWire" category="bus">
-      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedBusSubcomponent.0"/>
+      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedBusSubcomponent.0"/>
       <index>0</index>
       <classifier xsi:type="aadl2:BusType" href="../Wobbuloscope.aadl#Wobbuloscope.WiredConnection"/>
     </componentInstance>
     <componentInstance name="generatedSignalWire" category="bus">
-      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedBusSubcomponent.1"/>
+      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedBusSubcomponent.1"/>
       <index>0</index>
       <classifier xsi:type="aadl2:BusType" href="../Wobbuloscope.aadl#Wobbuloscope.WiredConnection"/>
     </componentInstance>
     <componentInstance name="freqKnobWire" category="bus">
-      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedBusSubcomponent.2"/>
+      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedBusSubcomponent.2"/>
       <index>0</index>
       <classifier xsi:type="aadl2:BusType" href="../Wobbuloscope.aadl#Wobbuloscope.WiredConnection"/>
     </componentInstance>
     <componentInstance name="amplKnobWire" category="bus">
-      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedBusSubcomponent.3"/>
+      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedBusSubcomponent.3"/>
       <index>0</index>
       <classifier xsi:type="aadl2:BusType" href="../Wobbuloscope.aadl#Wobbuloscope.WiredConnection"/>
     </componentInstance>
     <componentInstance name="externalUsb" category="bus">
-      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedBusSubcomponent.4"/>
+      <subcomponent xsi:type="aadl2:BusSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedBusSubcomponent.4"/>
       <index>0</index>
       <classifier xsi:type="aadl2:BusType" href="../Wobbuloscope.aadl#Wobbuloscope.USB"/>
-    </componentInstance>
-    <componentInstance name="oscilloscope" category="device">
-      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
-        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Processor_Binding"/>
-        <ownedValue>
-          <ownedValue xsi:type="aadl2:ListValue">
-            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.10"/>
-          </ownedValue>
-        </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.7"/>
-      </ownedPropertyAssociation>
-      <featureInstance name="analogProbe" type="/1">
-        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedDataPort.0"/>
-      </featureInstance>
-      <featureInstance name="digitalOut" direction="out" type="/2">
-        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
-          <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
-          <ownedValue>
-            <ownedValue xsi:type="aadl2:NamedValue">
-              <namedValue xsi:type="aadl2:EnumerationLiteral" href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
-            </ownedValue>
-          </ownedValue>
-          <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
-        </ownedPropertyAssociation>
-        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedDataPort.1"/>
-      </featureInstance>
-      <featureInstance name="wobbulatorIn" type="/1">
-        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedDataPort.2"/>
-      </featureInstance>
-      <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDeviceSubcomponent.0"/>
-      <index>0</index>
-      <classifier xsi:type="aadl2:DeviceImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.Oscilloscope.impl"/>
     </componentInstance>
     <componentInstance name="frequencyKnob" category="device">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
@@ -90,12 +58,12 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.12"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.9"/>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.7"/>
       </ownedPropertyAssociation>
       <featureInstance name="level" direction="out" type="/1">
         <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.7/@ownedDataPort.0"/>
       </featureInstance>
-      <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDeviceSubcomponent.1"/>
+      <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedDeviceSubcomponent.0"/>
       <index>0</index>
       <classifier xsi:type="aadl2:DeviceImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.ControlKnob.impl"/>
     </componentInstance>
@@ -107,16 +75,91 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.13"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.10"/>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.8"/>
       </ownedPropertyAssociation>
       <featureInstance name="level" direction="out" type="/1">
         <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.7/@ownedDataPort.0"/>
       </featureInstance>
-      <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDeviceSubcomponent.2"/>
+      <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedDeviceSubcomponent.1"/>
       <index>0</index>
       <classifier xsi:type="aadl2:DeviceImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.ControlKnob.impl"/>
     </componentInstance>
-    <componentInstance name="wobbulator" category="device">
+    <componentInstance name="testedDevice" category="device">
+      <featureInstance name="signalIn" type="/1">
+        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.18/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="probedSignal" direction="out" type="/1">
+        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.18/@ownedDataPort.1"/>
+      </featureInstance>
+      <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedDeviceSubcomponent.2"/>
+      <index>0</index>
+      <classifier xsi:type="aadl2:DeviceImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.TestedDevice.impl"/>
+    </componentInstance>
+    <componentInstance name="oscilloscopeProcess" category="process">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Processor_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.10"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.9"/>
+      </ownedPropertyAssociation>
+      <featureInstance name="deviceInput" type="/1">
+        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.16/@ownedDataPort.0"/>
+      </featureInstance>
+      <featureInstance name="wobbulatorInput" type="/1">
+        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.16/@ownedDataPort.1"/>
+      </featureInstance>
+      <featureInstance name="sampleOut" direction="out" type="/2">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:NamedValue">
+              <namedValue xsi:type="aadl2:EnumerationLiteral" href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
+        </ownedPropertyAssociation>
+        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.16/@ownedDataPort.2"/>
+      </featureInstance>
+      <componentInstance name="signalThread" category="thread">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Processor_Binding"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:ListValue">
+              <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.10"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.9"/>
+        </ownedPropertyAssociation>
+        <featureInstance name="wobbulatorSignal" type="/1">
+          <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance name="deviceSignal" type="/1">
+          <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.1"/>
+        </featureInstance>
+        <featureInstance name="sampleOut" direction="out" type="/2">
+          <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+            <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue>
+              <ownedValue xsi:type="aadl2:NamedValue">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+            <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.2"/>
+        </featureInstance>
+        <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedThreadSubcomponent.0"/>
+        <index>0</index>
+        <classifier xsi:type="aadl2:ThreadImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.OscilloscopeSampleThread.impl"/>
+      </componentInstance>
+      <subcomponent xsi:type="aadl2:ProcessSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedProcessSubcomponent.0"/>
+      <index>0</index>
+      <classifier xsi:type="aadl2:ProcessImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.OscilloscopeProcess.impl"/>
+    </componentInstance>
+    <componentInstance name="wobbulatorProcess" category="process">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Processor_Binding"/>
         <ownedValue>
@@ -124,17 +167,8 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.11"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.8"/>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.10"/>
       </ownedPropertyAssociation>
-      <featureInstance name="analogOut" direction="out" type="/1">
-        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.0"/>
-      </featureInstance>
-      <featureInstance name="frequencyKnob" type="/1">
-        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.1"/>
-      </featureInstance>
-      <featureInstance name="amplitudeKnob" type="/1">
-        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.2"/>
-      </featureInstance>
       <featureInstance name="sampleInput" type="/2">
         <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
           <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
@@ -145,74 +179,132 @@
           </ownedValue>
           <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
         </ownedPropertyAssociation>
-        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.3"/>
+        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.0"/>
       </featureInstance>
-      <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDeviceSubcomponent.3"/>
+      <featureInstance name="frequencyKnob" type="/1">
+        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.1"/>
+      </featureInstance>
+      <featureInstance name="amplitudeKnob" type="/1">
+        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.2"/>
+      </featureInstance>
+      <featureInstance name="analogOut" direction="out" type="/1">
+        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.12/@ownedDataPort.3"/>
+      </featureInstance>
+      <componentInstance name="controlThread" category="thread">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Processor_Binding"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:ListValue">
+              <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.11"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.10"/>
+        </ownedPropertyAssociation>
+        <featureInstance name="frequency" type="/1">
+          <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance name="amplitude" type="/1">
+          <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.1"/>
+        </featureInstance>
+        <featureInstance name="control" direction="out" type="/3">
+          <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.8/@ownedDataPort.2"/>
+        </featureInstance>
+        <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedThreadSubcomponent.0"/>
+        <index>0</index>
+        <classifier xsi:type="aadl2:ThreadImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.WobbulatorControlThread.impl"/>
+      </componentInstance>
+      <componentInstance name="signalThread" category="thread">
+        <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+          <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Processor_Binding"/>
+          <ownedValue>
+            <ownedValue xsi:type="aadl2:ListValue">
+              <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.11"/>
+            </ownedValue>
+          </ownedValue>
+          <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.10"/>
+        </ownedPropertyAssociation>
+        <featureInstance name="control" type="/3">
+          <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.0"/>
+        </featureInstance>
+        <featureInstance name="waveform" type="/2">
+          <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+            <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#Data_Model.Data_Representation"/>
+            <ownedValue>
+              <ownedValue xsi:type="aadl2:NamedValue">
+                <namedValue xsi:type="aadl2:EnumerationLiteral" href="platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl#/0/@ownedProperty.4/@ownedPropertyType/@ownedLiteral.6"/>
+              </ownedValue>
+            </ownedValue>
+            <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
+          </ownedPropertyAssociation>
+          <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.1"/>
+        </featureInstance>
+        <featureInstance name="generatedSignal" direction="out" type="/1">
+          <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.10/@ownedDataPort.2"/>
+        </featureInstance>
+        <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedThreadSubcomponent.1"/>
+        <index>0</index>
+        <classifier xsi:type="aadl2:ThreadImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.WobbulatorSignalThread.impl"/>
+      </componentInstance>
+      <connectionInstance name="controlThread.control -> signalThread.control" complete="true" kind="portConnection" destination="/0/@componentInstance.9/@componentInstance.1/@featureInstance.0" source="/0/@componentInstance.9/@componentInstance.0/@featureInstance.2">
+        <connectionReference context="/0/@componentInstance.9" source="/0/@componentInstance.9/@componentInstance.0/@featureInstance.2" destination="/0/@componentInstance.9/@componentInstance.1/@featureInstance.0">
+          <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPortConnection.2"/>
+        </connectionReference>
+      </connectionInstance>
+      <subcomponent xsi:type="aadl2:ProcessSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedProcessSubcomponent.1"/>
       <index>0</index>
-      <classifier xsi:type="aadl2:DeviceImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.Wobbulator.impl"/>
-    </componentInstance>
-    <componentInstance name="testedDevice" category="device">
-      <featureInstance name="signalIn" type="/1">
-        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.11/@ownedDataPort.0"/>
-      </featureInstance>
-      <featureInstance name="probedSignal" direction="out" type="/1">
-        <feature xsi:type="aadl2:DataPort" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.11/@ownedDataPort.1"/>
-      </featureInstance>
-      <subcomponent xsi:type="aadl2:DeviceSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedDeviceSubcomponent.4"/>
-      <index>0</index>
-      <classifier xsi:type="aadl2:DeviceImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.TestedDevice.impl"/>
+      <classifier xsi:type="aadl2:ProcessImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.WobbulatorProcess.impl"/>
     </componentInstance>
     <componentInstance name="oscilloscopeFpga" category="processor">
-      <featureInstance name="usb" category="busAccess" type="/3">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedBusAccess.0"/>
+      <featureInstance name="usb" category="busAccess" type="/4">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.0"/>
       </featureInstance>
-      <featureInstance name="dac" category="busAccess" type="/4">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedBusAccess.1"/>
+      <featureInstance name="dac" category="busAccess" type="/5">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.1"/>
       </featureInstance>
-      <featureInstance name="adc1" category="busAccess" type="/4">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedBusAccess.2"/>
+      <featureInstance name="adc1" category="busAccess" type="/5">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.2"/>
       </featureInstance>
-      <featureInstance name="adc2" category="busAccess" type="/4">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedBusAccess.3"/>
+      <featureInstance name="adc2" category="busAccess" type="/5">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.3"/>
       </featureInstance>
-      <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedProcessorSubcomponent.0"/>
+      <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedProcessorSubcomponent.0"/>
       <index>0</index>
       <classifier xsi:type="aadl2:ProcessorType" href="../Wobbuloscope.aadl#Wobbuloscope.XilinxFPGA"/>
     </componentInstance>
     <componentInstance name="wobbulatorFpga" category="processor">
-      <featureInstance name="usb" category="busAccess" type="/3">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedBusAccess.0"/>
+      <featureInstance name="usb" category="busAccess" type="/4">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.0"/>
       </featureInstance>
-      <featureInstance name="dac" category="busAccess" type="/4">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedBusAccess.1"/>
+      <featureInstance name="dac" category="busAccess" type="/5">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.1"/>
       </featureInstance>
-      <featureInstance name="adc1" category="busAccess" type="/4">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedBusAccess.2"/>
+      <featureInstance name="adc1" category="busAccess" type="/5">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.2"/>
       </featureInstance>
-      <featureInstance name="adc2" category="busAccess" type="/4">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedBusAccess.3"/>
+      <featureInstance name="adc2" category="busAccess" type="/5">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.3"/>
       </featureInstance>
-      <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedProcessorSubcomponent.1"/>
+      <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedProcessorSubcomponent.1"/>
       <index>0</index>
       <classifier xsi:type="aadl2:ProcessorType" href="../Wobbuloscope.aadl#Wobbuloscope.XilinxFPGA"/>
     </componentInstance>
     <componentInstance name="freqKnobProc" category="processor">
-      <featureInstance name="wire" category="busAccess" type="/4">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.0"/>
+      <featureInstance name="wire" category="busAccess" type="/5">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedBusAccess.0"/>
       </featureInstance>
-      <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedProcessorSubcomponent.2"/>
+      <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedProcessorSubcomponent.2"/>
       <index>0</index>
       <classifier xsi:type="aadl2:ProcessorType" href="../Wobbuloscope.aadl#Wobbuloscope.PhysicalKnob"/>
     </componentInstance>
     <componentInstance name="amplKnobProc" category="processor">
-      <featureInstance name="wire" category="busAccess" type="/4">
-        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedBusAccess.0"/>
+      <featureInstance name="wire" category="busAccess" type="/5">
+        <feature xsi:type="aadl2:BusAccess" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.6/@ownedBusAccess.0"/>
       </featureInstance>
-      <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedProcessorSubcomponent.3"/>
+      <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedProcessorSubcomponent.3"/>
       <index>0</index>
       <classifier xsi:type="aadl2:ProcessorType" href="../Wobbuloscope.aadl#Wobbuloscope.PhysicalKnob"/>
     </componentInstance>
-    <connectionInstance name="wobbulatorWaveformIn -> wobbulator.sampleInput" kind="portConnection" destination="/0/@componentInstance.8/@featureInstance.3" source="/0/@featureInstance.1">
+    <connectionInstance name="wobbulatorWaveformIn -> wobbulatorProcess.signalThread.waveform" kind="portConnection" destination="/0/@componentInstance.9/@componentInstance.1/@featureInstance.1" source="/0/@featureInstance.1">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
         <ownedValue>
@@ -220,62 +312,51 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.4"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.1"/>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.1"/>
       </ownedPropertyAssociation>
-      <connectionReference context="/0" source="/0/@featureInstance.1" destination="/0/@componentInstance.8/@featureInstance.3">
-        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPortConnection.6"/>
+      <connectionReference context="/0" source="/0/@featureInstance.1" destination="/0/@componentInstance.9/@featureInstance.0">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPortConnection.6"/>
+      </connectionReference>
+      <connectionReference context="/0/@componentInstance.9" source="/0/@componentInstance.9/@featureInstance.0" destination="/0/@componentInstance.9/@componentInstance.1/@featureInstance.1">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPortConnection.3"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="oscProbeWire -> oscilloscopeFpga.adc1" complete="true" kind="accessConnection" destination="/0/@componentInstance.10/@featureInstance.2" source="/0/@componentInstance.0">
       <connectionReference context="/0" source="/0/@componentInstance.0" destination="/0/@componentInstance.10/@featureInstance.2">
-        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedAccessConnection.4"/>
+        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedAccessConnection.4"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="generatedSignalWire -> oscilloscopeFpga.adc2" complete="true" kind="accessConnection" destination="/0/@componentInstance.10/@featureInstance.3" source="/0/@componentInstance.1">
       <connectionReference context="/0" source="/0/@componentInstance.1" destination="/0/@componentInstance.10/@featureInstance.3">
-        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedAccessConnection.5"/>
+        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedAccessConnection.5"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="generatedSignalWire -> wobbulatorFpga.dac" complete="true" kind="accessConnection" destination="/0/@componentInstance.11/@featureInstance.1" source="/0/@componentInstance.1">
       <connectionReference context="/0" source="/0/@componentInstance.1" destination="/0/@componentInstance.11/@featureInstance.1">
-        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedAccessConnection.6"/>
+        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedAccessConnection.6"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="freqKnobWire -> wobbulatorFpga.adc2" complete="true" kind="accessConnection" destination="/0/@componentInstance.11/@featureInstance.3" source="/0/@componentInstance.2">
       <connectionReference context="/0" source="/0/@componentInstance.2" destination="/0/@componentInstance.11/@featureInstance.3">
-        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedAccessConnection.1"/>
+        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedAccessConnection.1"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="amplKnobWire -> wobbulatorFpga.adc1" complete="true" kind="accessConnection" destination="/0/@componentInstance.11/@featureInstance.2" source="/0/@componentInstance.3">
       <connectionReference context="/0" source="/0/@componentInstance.3" destination="/0/@componentInstance.11/@featureInstance.2">
-        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedAccessConnection.3"/>
+        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedAccessConnection.3"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="externalUsb -> oscilloscopeFpga.usb" complete="true" kind="accessConnection" destination="/0/@componentInstance.10/@featureInstance.0" source="/0/@componentInstance.4">
       <connectionReference context="/0" source="/0/@componentInstance.4" destination="/0/@componentInstance.10/@featureInstance.0">
-        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedAccessConnection.7"/>
+        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedAccessConnection.7"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="externalUsb -> wobbulatorFpga.usb" complete="true" kind="accessConnection" destination="/0/@componentInstance.11/@featureInstance.0" source="/0/@componentInstance.4">
       <connectionReference context="/0" source="/0/@componentInstance.4" destination="/0/@componentInstance.11/@featureInstance.0">
-        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedAccessConnection.8"/>
+        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedAccessConnection.8"/>
       </connectionReference>
     </connectionInstance>
-    <connectionInstance name="oscilloscope.digitalOut -> sampleOutput" kind="portConnection" destination="/0/@featureInstance.0" source="/0/@componentInstance.5/@featureInstance.1">
-      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
-        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
-        <ownedValue>
-          <ownedValue xsi:type="aadl2:ListValue">
-            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.4"/>
-          </ownedValue>
-        </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.0"/>
-      </ownedPropertyAssociation>
-      <connectionReference context="/0" source="/0/@componentInstance.5/@featureInstance.1" destination="/0/@featureInstance.0">
-        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPortConnection.5"/>
-      </connectionReference>
-    </connectionInstance>
-    <connectionInstance name="frequencyKnob.level -> wobbulator.frequencyKnob" complete="true" kind="portConnection" destination="/0/@componentInstance.8/@featureInstance.1" source="/0/@componentInstance.6/@featureInstance.0">
+    <connectionInstance name="frequencyKnob.level -> wobbulatorProcess.controlThread.frequency" complete="true" kind="portConnection" destination="/0/@componentInstance.9/@componentInstance.0/@featureInstance.0" source="/0/@componentInstance.5/@featureInstance.0">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
         <ownedValue>
@@ -283,13 +364,16 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.2"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.2"/>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.2"/>
       </ownedPropertyAssociation>
-      <connectionReference context="/0" source="/0/@componentInstance.6/@featureInstance.0" destination="/0/@componentInstance.8/@featureInstance.1">
-        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPortConnection.3"/>
+      <connectionReference context="/0" source="/0/@componentInstance.5/@featureInstance.0" destination="/0/@componentInstance.9/@featureInstance.1">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPortConnection.3"/>
+      </connectionReference>
+      <connectionReference context="/0/@componentInstance.9" source="/0/@componentInstance.9/@featureInstance.1" destination="/0/@componentInstance.9/@componentInstance.0/@featureInstance.0">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPortConnection.1"/>
       </connectionReference>
     </connectionInstance>
-    <connectionInstance name="amplitudeKnob.level -> wobbulator.amplitudeKnob" complete="true" kind="portConnection" destination="/0/@componentInstance.8/@featureInstance.2" source="/0/@componentInstance.7/@featureInstance.0">
+    <connectionInstance name="amplitudeKnob.level -> wobbulatorProcess.controlThread.amplitude" complete="true" kind="portConnection" destination="/0/@componentInstance.9/@componentInstance.0/@featureInstance.1" source="/0/@componentInstance.6/@featureInstance.0">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
         <ownedValue>
@@ -297,41 +381,16 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.3"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.3"/>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.3"/>
       </ownedPropertyAssociation>
-      <connectionReference context="/0" source="/0/@componentInstance.7/@featureInstance.0" destination="/0/@componentInstance.8/@featureInstance.2">
-        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPortConnection.4"/>
+      <connectionReference context="/0" source="/0/@componentInstance.6/@featureInstance.0" destination="/0/@componentInstance.9/@featureInstance.2">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPortConnection.4"/>
+      </connectionReference>
+      <connectionReference context="/0/@componentInstance.9" source="/0/@componentInstance.9/@featureInstance.2" destination="/0/@componentInstance.9/@componentInstance.0/@featureInstance.1">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPortConnection.0"/>
       </connectionReference>
     </connectionInstance>
-    <connectionInstance name="wobbulator.analogOut -> oscilloscope.wobbulatorIn" complete="true" kind="portConnection" destination="/0/@componentInstance.5/@featureInstance.2" source="/0/@componentInstance.8/@featureInstance.0">
-      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
-        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
-        <ownedValue>
-          <ownedValue xsi:type="aadl2:ListValue">
-            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.1"/>
-          </ownedValue>
-        </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.5"/>
-      </ownedPropertyAssociation>
-      <connectionReference context="/0" source="/0/@componentInstance.8/@featureInstance.0" destination="/0/@componentInstance.5/@featureInstance.2">
-        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPortConnection.0"/>
-      </connectionReference>
-    </connectionInstance>
-    <connectionInstance name="wobbulator.analogOut -> testedDevice.signalIn" complete="true" kind="portConnection" destination="/0/@componentInstance.9/@featureInstance.0" source="/0/@componentInstance.8/@featureInstance.0">
-      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
-        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
-        <ownedValue>
-          <ownedValue xsi:type="aadl2:ListValue">
-            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.1"/>
-          </ownedValue>
-        </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.6"/>
-      </ownedPropertyAssociation>
-      <connectionReference context="/0" source="/0/@componentInstance.8/@featureInstance.0" destination="/0/@componentInstance.9/@featureInstance.0">
-        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPortConnection.1"/>
-      </connectionReference>
-    </connectionInstance>
-    <connectionInstance name="testedDevice.probedSignal -> oscilloscope.analogProbe" complete="true" kind="portConnection" destination="/0/@componentInstance.5/@featureInstance.0" source="/0/@componentInstance.9/@featureInstance.1">
+    <connectionInstance name="testedDevice.probedSignal -> oscilloscopeProcess.signalThread.deviceSignal" complete="true" kind="portConnection" destination="/0/@componentInstance.8/@componentInstance.0/@featureInstance.1" source="/0/@componentInstance.7/@featureInstance.1">
       <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
         <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
         <ownedValue>
@@ -339,20 +398,77 @@
             <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.0"/>
           </ownedValue>
         </ownedValue>
-        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPropertyAssociation.4"/>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.4"/>
       </ownedPropertyAssociation>
-      <connectionReference context="/0" source="/0/@componentInstance.9/@featureInstance.1" destination="/0/@componentInstance.5/@featureInstance.0">
+      <connectionReference context="/0" source="/0/@componentInstance.7/@featureInstance.1" destination="/0/@componentInstance.8/@featureInstance.0">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPortConnection.2"/>
+      </connectionReference>
+      <connectionReference context="/0/@componentInstance.8" source="/0/@componentInstance.8/@featureInstance.0" destination="/0/@componentInstance.8/@componentInstance.0/@featureInstance.1">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPortConnection.0"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="oscilloscopeProcess.signalThread.sampleOut -> sampleOutput" kind="portConnection" destination="/0/@featureInstance.0" source="/0/@componentInstance.8/@componentInstance.0/@featureInstance.2">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.4"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.0"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0/@componentInstance.8" source="/0/@componentInstance.8/@componentInstance.0/@featureInstance.2" destination="/0/@componentInstance.8/@featureInstance.2">
         <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPortConnection.2"/>
+      </connectionReference>
+      <connectionReference context="/0" source="/0/@componentInstance.8/@featureInstance.2" destination="/0/@featureInstance.0">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPortConnection.5"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="wobbulatorProcess.signalThread.generatedSignal -> oscilloscopeProcess.signalThread.wobbulatorSignal" complete="true" kind="portConnection" destination="/0/@componentInstance.8/@componentInstance.0/@featureInstance.0" source="/0/@componentInstance.9/@componentInstance.1/@featureInstance.2">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.1"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.5"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0/@componentInstance.9" source="/0/@componentInstance.9/@componentInstance.1/@featureInstance.2" destination="/0/@componentInstance.9/@featureInstance.3">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPortConnection.4"/>
+      </connectionReference>
+      <connectionReference context="/0" source="/0/@componentInstance.9/@featureInstance.3" destination="/0/@componentInstance.8/@featureInstance.1">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPortConnection.0"/>
+      </connectionReference>
+      <connectionReference context="/0/@componentInstance.8" source="/0/@componentInstance.8/@featureInstance.1" destination="/0/@componentInstance.8/@componentInstance.0/@featureInstance.0">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedPortConnection.1"/>
+      </connectionReference>
+    </connectionInstance>
+    <connectionInstance name="wobbulatorProcess.signalThread.generatedSignal -> testedDevice.signalIn" complete="true" kind="portConnection" destination="/0/@componentInstance.7/@featureInstance.0" source="/0/@componentInstance.9/@componentInstance.1/@featureInstance.2">
+      <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+        <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl#Deployment_Properties.Actual_Connection_Binding"/>
+        <ownedValue>
+          <ownedValue xsi:type="aadl2:ListValue">
+            <ownedListElement xsi:type="instance:InstanceReferenceValue" referencedInstanceObject="/0/@componentInstance.1"/>
+          </ownedValue>
+        </ownedValue>
+        <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPropertyAssociation.6"/>
+      </ownedPropertyAssociation>
+      <connectionReference context="/0/@componentInstance.9" source="/0/@componentInstance.9/@componentInstance.1/@featureInstance.2" destination="/0/@componentInstance.9/@featureInstance.3">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.13/@ownedPortConnection.4"/>
+      </connectionReference>
+      <connectionReference context="/0" source="/0/@componentInstance.9/@featureInstance.3" destination="/0/@componentInstance.7/@featureInstance.0">
+        <connection xsi:type="aadl2:PortConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedPortConnection.1"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="freqKnobProc.wire -> freqKnobWire" complete="true" kind="accessConnection" destination="/0/@componentInstance.2" source="/0/@componentInstance.12/@featureInstance.0">
       <connectionReference context="/0" source="/0/@componentInstance.12/@featureInstance.0" destination="/0/@componentInstance.2">
-        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedAccessConnection.0"/>
+        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedAccessConnection.0"/>
       </connectionReference>
     </connectionInstance>
     <connectionInstance name="amplKnobProc.wire -> amplKnobWire" complete="true" kind="accessConnection" destination="/0/@componentInstance.3" source="/0/@componentInstance.13/@featureInstance.0">
       <connectionReference context="/0" source="/0/@componentInstance.13/@featureInstance.0" destination="/0/@componentInstance.3">
-        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.17/@ownedAccessConnection.2"/>
+        <connection xsi:type="aadl2:AccessConnection" href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.22/@ownedAccessConnection.2"/>
       </connectionReference>
     </connectionInstance>
     <classifier xsi:type="aadl2:SystemImplementation" href="../Wobbuloscope.aadl#Wobbuloscope.Wobbuloscope.impl"/>
@@ -373,6 +489,9 @@
       <propertyAssociation href="../Wobbuloscope.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
     </ownedPropertyAssociation>
     <classifier xsi:type="aadl2:DataType" href="../Wobbuloscope.aadl#Wobbuloscope.Sample"/>
+  </instance:ComponentInstance>
+  <instance:ComponentInstance name="Wobbuloscope::ControlSignal" category="data">
+    <classifier xsi:type="aadl2:DataType" href="../Wobbuloscope.aadl#Wobbuloscope.ControlSignal"/>
   </instance:ComponentInstance>
   <instance:ComponentInstance name="Wobbuloscope::USB" category="bus">
     <classifier xsi:type="aadl2:BusType" href="../Wobbuloscope.aadl#Wobbuloscope.USB"/>

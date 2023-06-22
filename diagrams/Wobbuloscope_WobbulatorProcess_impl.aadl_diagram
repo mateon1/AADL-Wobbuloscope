@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="19570c0b-fa2c-416c-9b5b-728d09550110" manual="true">
+    <element uuid="b56f84e3-07a3-4475-8298-b6988c7ec5b8" manual="true">
+      <element uuid="9ce6fb75-f03f-4045-80f0-a15b2b7db4b0" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ampl</seg>
+      </bo>
+    </element>
+    <element uuid="e56771ca-fedd-45b1-8d42-0b74eda79571" manual="true">
+      <element uuid="b498ee23-d2a7-4fd9-996b-8ee7c9a41bd0" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ctl</seg>
+      </bo>
+    </element>
+    <element uuid="7250df44-f772-4f3f-a975-de7f9197c15a" manual="true">
+      <element uuid="8d695d99-24ea-435d-a429-1372cbedb65b" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>freq</seg>
+      </bo>
+    </element>
+    <element uuid="249dc30b-01ad-493e-b5a6-ecf9db1827d8" manual="true">
+      <element uuid="029b6e88-8f8c-4e9b-a4db-0ba68652d1b2" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>inp</seg>
+      </bo>
+      <bendpoints>
+        <point x="597.6458740234375" y="70.0"/>
+        <point x="597.6458740234375" y="98.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="717c47d4-8379-4a31-a7b5-3880c7118d02" manual="true">
+      <element uuid="2b82bf4c-28f6-4226-8df4-04da0100abdf" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>outp</seg>
+      </bo>
+    </element>
+    <element uuid="92576f23-22ad-4e59-96e5-5a399219ff26" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>amplitudeKnob</seg>
+      </bo>
+      <position y="91.0"/>
+    </element>
+    <element uuid="3f33a828-9e0a-4216-9de6-310f0ffb1ae4" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>analogOut</seg>
+      </bo>
+      <position x="796.4700546264648" y="91.0"/>
+    </element>
+    <element uuid="43282daa-c220-4da3-aba4-39b48769a744" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>frequencyKnob</seg>
+      </bo>
+      <position y="141.0"/>
+    </element>
+    <element uuid="4eb627b0-601e-4b73-92b2-68c346ca6008" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>sampleInput</seg>
+      </bo>
+      <position y="38.0"/>
+    </element>
+    <element uuid="2016b8bf-6573-4d4f-baf7-6b6bbac88c05" manual="true">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+    </element>
+    <element uuid="0e51865b-ace3-4a61-ac40-4864000e0690" manual="true">
+      <element uuid="184d0685-f157-4c32-84ce-4d5f2a5674b1" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>amplitude</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="83bc87b0-ac12-44d5-aabc-b24c661b43d4" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>control</seg>
+        </bo>
+        <position x="228.5442771911621" y="35.0"/>
+      </element>
+      <element uuid="88620b4d-baad-4ff0-9478-6a4f93e0ef5b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>frequency</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="d0c93d0f-39b1-4cbc-b546-e2e090195d18" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>controlThread</seg>
+      </bo>
+      <position x="117.08204650878906" y="81.0"/>
+      <size width="280.56380462646484" height="110.0"/>
+    </element>
+    <element uuid="432cfa3d-3f06-4797-bbde-56f47084ea32" manual="true">
+      <element uuid="0f0a715d-8623-4d15-b003-675f7308454f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>control</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="16274562-3405-4c65-8238-5b086991aabc" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>generatedSignal</seg>
+        </bo>
+        <position x="243.38802337646484" y="35.0"/>
+      </element>
+      <element uuid="11437d86-0b21-4c60-ab8a-2a300f588f77" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>waveform</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="77609b2c-3608-49e4-b999-e64cc0e31acb" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>signalThread</seg>
+      </bo>
+      <position x="417.64585876464844" y="56.0"/>
+      <size width="352.50391387939453" height="110.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>WobbulatorProcess.impl</seg>
+    </bo>
+    <position x="190.0"/>
+    <size width="870.0" height="203.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>Wobbuloscope::WobbulatorProcess.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

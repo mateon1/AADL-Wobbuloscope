@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="573328c1-a320-47dc-82ad-79450e3d5862" manual="true">
+    <element uuid="b31475e3-e988-42d6-9acf-0c310cbe45c5" manual="true">
+      <element uuid="737d2ac1-0df5-4a26-a23e-f3bd01257417" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>samp</seg>
+      </bo>
+    </element>
+    <element uuid="1d8accf8-fd89-4f64-8658-37aa835990f4" manual="true">
+      <element uuid="75f5db9e-3ddc-4fed-92d0-d51c84d756da" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>sig</seg>
+      </bo>
+    </element>
+    <element uuid="497adc7e-b35e-4dc9-b46e-211834f55b54" manual="true">
+      <element uuid="17aed66d-fc33-4c76-92d5-9132ef082e95" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>wob</seg>
+      </bo>
+    </element>
+    <element uuid="d3a22716-88ae-464f-b17d-963b58659360" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>deviceInput</seg>
+      </bo>
+      <position y="48.0"/>
+    </element>
+    <element uuid="75551998-54c2-41b4-b524-3de3473e959f" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>sampleOut</seg>
+      </bo>
+      <position x="503.52735137939453" y="73.0"/>
+    </element>
+    <element uuid="a052ee47-6ce4-4054-9369-09a364c74428" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>wobbulatorInput</seg>
+      </bo>
+      <position y="98.0"/>
+    </element>
+    <element uuid="94b6a896-9a7b-40d0-9321-0e90b01cd7c5" manual="true">
+      <element uuid="a376e9ee-25db-4803-878f-d9223b78b574" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>deviceSignal</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="d8b1c72a-c3be-4e47-84a7-311fccec4a0e" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>sampleOut</seg>
+        </bo>
+        <position x="286.3828125" y="35.0"/>
+      </element>
+      <element uuid="cd59fd65-cb7d-48e8-8f08-c471b90cf5b3" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>wobbulatorSignal</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>signalThread</seg>
+      </bo>
+      <position x="122.6484375" y="38.0"/>
+      <size width="362.85546112060547" height="110.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>OscilloscopeProcess.impl</seg>
+    </bo>
+    <position x="200.0"/>
+    <size width="580.0" height="160.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>Wobbuloscope::OscilloscopeProcess.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>
